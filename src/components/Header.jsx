@@ -13,7 +13,8 @@ const HeaderComponent = () => {
             <a href='#' className='text-zinc-600 ml-9 text-xl'>этапы работы</a>
             <a href='#' className='text-zinc-600 ml-9 text-xl'>отзывы</a>
         </div>
-        <button id='ll' className='w-50 h-12 rounded-2xl text-2xl font-normal text-stone-50 bg-green-300 ml-auto mt-8 mr-9  ring-12 ring-white/45 pb-1.5 cursor-pointer transform-gpu hover-opacity-100'>связаться</button>
+        <button id='ll' className='w-50 h-12 rounded-2xl text-2xl font-normal text-stone-50 bg-green-300 ml-auto mt-8 mr-9 shadow-[inset_2px_-2px_12px_rgba(34,111,33,0.36)] 
+        ring-12 ring-white/45 pb-1.5 cursor-pointer transform-gpu hover-opacity-100'>связаться</button>
     </div>
   )
 }
